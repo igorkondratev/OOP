@@ -16,8 +16,8 @@ public:
     float rety(float x) const {
         return a*a*a/(a*a+x*x);
     }
-    void coords(Point *min, Point *max);
-    float rets() ;
-    float retv() ;
-    char* frm() ;
+    void coords(Point *min, Point *max) const;
+    float rets() const;
+    float retv() const;
+    char* frm() const;
 };
