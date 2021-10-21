@@ -17,15 +17,15 @@ void Verzera::Seta(float valuea)
 }
 
 
-float Verzera::rets() {
+float Verzera::rets() const{
     return 4*PI*a*a;
 }
 
-float Verzera::retv() {
+float Verzera::retv() const{
     return PI*PI*a*a*a/2;
 }
 
-char* Verzera::frm() {
+char* Verzera::frm() const{
     char* s1 ="y * (x^2 + a^2) = a^3\n";
 
     int l = strlen(s1) + 1;
@@ -41,7 +41,7 @@ char* Verzera::frm() {
 
 }
 
-void Verzera::coords(Point *min,Point *max) {
+void Verzera::coords(Point *min,Point *max) const{
     float x= -a/sqrt(3);
     float y = rety(x);
     min->x=x;
