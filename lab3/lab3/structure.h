@@ -1,4 +1,6 @@
 //#include<stdexcept>
+#ifdef LAB_3_CLASS_H
+#define LAB_3_CLASS_H
 class Vector{
 private:
    const static int SZ = 10;
@@ -34,3 +36,4 @@ public:
 
 
 };
+#endif
