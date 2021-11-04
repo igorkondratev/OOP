@@ -1,6 +1,8 @@
-#include<stdexcept>
 #ifdef LAB_3_CLASS_H
 #define LAB_3_CLASS_H
+
+#include<stdexcept>
+
 class Vector{
 private:
    int SZ ;
