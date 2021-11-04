@@ -1,3 +1,6 @@
+#ifdef LAB_3_CLASS_H
+#define LAB_3_CLASS_H
+
 #include<stdexcept>
 
 class Vector{
@@ -47,4 +50,4 @@ public:
 
 
 };
-//перегрузить поток ввода индексацию(a[i]=...) постфиксный инкремент
+#endif
